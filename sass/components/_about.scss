@@ -1,0 +1,40 @@
+.about-title {
+    color: #E55A04 !important;
+}
+.about a {
+    background-color: #555 !important;
+}
+
+.about-text a{
+    color: #FEFEFE;
+    padding: .6rem .3rem;
+    background-color: #E55A04;
+    border-radius: 0;
+    
+    &:hover {
+        color: #E55A04;
+        background: #FEFEFE;
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,0.3);
+
+    }
+}
+
+.about-text h2 {
+    color: #E55A04;
+}
+
+.about-progress{
+    min-height: 50vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(..///../img/video-filler.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    outline: .2rem solid #E55A04;
+    outline-offset: -1rem !important;
+}
+
+.progress-bar {
+    // color: #E55A04 !important;
+    background: #E55A04 !important;
+}

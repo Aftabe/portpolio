@@ -1,0 +1,16 @@
+.top-icons{
+    padding-top: .5rem;
+    &__icon{
+        font-size: 1.5rem;
+        color: #FEFEFE;
+        transition: color .3s ease;
+
+        &:hover {
+            color: lighten($color: #000000, $amount: 15);
+        }
+    }
+
+    &__text {
+        color: #FEFEFE;
+    }
+}

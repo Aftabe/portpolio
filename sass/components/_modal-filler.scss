@@ -1,0 +1,14 @@
+#modal-filler{
+    min-height: 60vh;
+    margin-top: -63px;
+    background: linear-gradient(rgba(107, 212, 81, 0.596), rgba(107, 212, 81, 0.596)), url(..///../img/video-filler.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    a{
+        color: #333;
+        font-size: 4rem;
+        animation: playAnimation 2s ease infinite;
+    }
+}

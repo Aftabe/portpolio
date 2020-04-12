@@ -1,0 +1,10 @@
+@keyframes playAnimation {
+    20% {
+        color: red;
+    }
+    50%{
+        transform: scale(1.4);
+        color: grey;
+    }
+
+}

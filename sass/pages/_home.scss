@@ -1,0 +1,16 @@
+// TOP ICONS:
+.icon-top {
+    background-color: #E55A04;
+}
+
+// ################################# SECTION ABOUT ################
+#section-about{
+    min-height: 40vh;
+    background-color: $color-main-grey;
+    clip-path: polygon(0 14%, 100% 0, 100% 100%, 0% 100%);
+}
+
+#current-project {
+    background-color: grey;
+    clip-path: polygon(0 0, 100% 0, 100% 94%, 0% 100%);
+}

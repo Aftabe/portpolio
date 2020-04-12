@@ -1,0 +1,40 @@
+.current-project-photo {
+    position: relative;
+    min-height: 50vh;
+}
+
+.current-project {
+    height: 60%;
+    width: 50%;
+    position: absolute;
+    transition: all 1.5s ease-in-out;
+
+    &:hover {
+        z-index: 80;
+        transform: scale(1.1);
+    }
+}
+
+.current-project-1 {
+    top: 0;
+    left: 9%;
+    transform: rotate(-15deg);
+    z-index: 30;
+}
+.current-project-3 {
+    top: -2%;
+    left: 22%;
+    transform: rotate(8deg);
+    z-index: 40;
+}
+.current-project-4 {
+    top: 40%;
+    left: 9%;
+    transform: rotate(15deg);
+    z-index: 50;
+}
+.current-project-5 {
+    top: 30%;
+    left: 23%;
+    transform: rotate(-25.7deg);
+}

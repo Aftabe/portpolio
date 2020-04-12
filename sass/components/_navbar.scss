@@ -1,0 +1,97 @@
+.navbar {
+    background-color: #333;
+
+    .navar-background{
+        padding: 2px 20px;
+    }
+
+    .navbar-brand {
+        color: #ffffff;
+        padding: .4rem.5rem;
+        border: .1rem solid white;
+        border-radius: .25rem;
+
+        transition: all .3s ease-in-out;
+        &:hover{
+            color: lighten($color: #E55A04, $amount: 20%);
+            border-color: lighten($color: #E55A04, $amount: 20%);
+        }
+        
+    }
+
+    .nav-active {
+        // padding: .5rem;
+        background: #E55A04;
+        border-radius: .25rem;
+    }
+
+    .nav-link {
+        color: #ffffff;
+        transition: all .3s ease-in-out;
+        padding: .3rem .7rem !important;
+
+        &:hover {
+            color: darken($color: black, $amount: .10);
+            background-color: lighten($color: #E55A04, $amount: 20%);
+            border-radius: .25rem;
+        }
+    } 
+
+    .toggler {
+        &-1 {
+            width: 2rem;
+            height: .1rem;
+            margin: .5rem;
+            background-color: white;
+            transition: all .2s ease-in;
+        }
+        &-2 {
+            width: 2rem;
+            height: .1rem;
+            margin: .5rem;
+            background-color: white;
+            transition: all .2s ease-in;
+            
+        }
+        &-3 {
+            width: 2rem;
+            height: .1rem;
+            margin: .5rem;
+            background-color: white;
+            transition: all .2s ease-in;
+
+        }
+
+       
+    }
+
+    .change .toggler-1 {
+        transform: rotate(-45deg) translate(-5px, 7.5px);
+    }
+    .change .toggler-2 {
+        opacity: 0;
+    }
+    .change .toggler-3 {
+        transform: rotate(45deg) translate(-5px, -7.5px);
+    }
+
+    .navbar-toggler {
+        outline: none;
+        border: .1rem solid #E55A04;
+        padding: .2rem;
+    }
+
+    .input-group-text {
+        background-color: #E55A04 !important;
+        border: #E55A04;
+    }
+
+    .nav-search-icon {
+        color: white;
+    }
+
+    .form-control {
+        border-color: white;
+    }
+    
+}

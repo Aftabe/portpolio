@@ -1,0 +1,38 @@
+.img-container {
+    position: relative;
+    overflow: hidden;
+
+    background: linear-gradient(rgba(#E55A04, .5), rgba(#E55A04, .5));
+
+    &:hover .project-image {
+        opacity: .5;
+        transform: scale(1.2);
+    }
+
+    &:hover .search-link {
+        margin-top: 0;
+        opacity: 1;
+    }
+}
+
+.project-image {
+    // opacity: 1;
+    transition: all .3s ease-in-out;
+}
+
+.search-link {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3.5rem;
+
+   color: #333;
+   transition: margin 1s ease-in-out, color .5s ease-in-out, opacity 2s ease-in-out;
+   margin-top: -50%;
+   opacity: 0;
+}
+
+.search-link:hover {
+    color: white;
+}

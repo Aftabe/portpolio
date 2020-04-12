@@ -1,0 +1,56 @@
+// .skills-icon {
+//     font-size: 20rem;
+//     color: aquamarine;
+// }
+
+// ####################################### TITLE #############################
+.title {
+    h1 {
+        color: #040303;
+    }
+    h3 {
+        color: #CECECA;
+    }
+
+    a {
+        color: #E55A04;
+        padding: 1rem;
+        font-size: 2rem;
+        display: inline-block;
+        background: white;
+        &:hover {
+            color: #E55A04;
+        }
+
+    }
+}
+
+.title-uderline {
+    height: .3rem;
+    width: 15.5rem;
+    background-color:#E55A04;
+    // margin: -2.6rem auto 0 auto;
+    margin: -2.6rem auto;
+}
+
+.skills-icon{
+    background-color: #555;
+    clip-path: polygon(0 0, 100% 0%, 100% 91%, 0% 100%);
+    transition: all .3s ease-in-out;
+    &:hover{
+        background-color: #E55A04; 
+    }
+}
+
+.skill-icon {
+    color: #CECECA;
+    font-size: 200px;
+    padding: 1rem;
+    padding-bottom: 2rem;
+    transition: all .3s ease-in-out;
+
+    &:hover {
+        color: white;
+    }
+
+}
