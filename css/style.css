@@ -1,0 +1,275 @@
+.top-icons {
+  padding-top: .5rem; }
+  .top-icons__icon {
+    font-size: 1.5rem;
+    color: #FEFEFE;
+    transition: color .3s ease; }
+    .top-icons__icon:hover {
+      color: #262626; }
+  .top-icons__text {
+    color: #FEFEFE; }
+
+.navbar {
+  background-color: #333; }
+  .navbar .navar-background {
+    padding: 2px 20px; }
+  .navbar .navbar-brand {
+    color: #ffffff;
+    padding: 0.4rem 0.5rem;
+    border: .1rem solid white;
+    border-radius: .25rem;
+    transition: all .3s ease-in-out; }
+    .navbar .navbar-brand:hover {
+      color: #fc9453;
+      border-color: #fc9453; }
+  .navbar .nav-active {
+    background: #E55A04;
+    border-radius: .25rem; }
+  .navbar .nav-link {
+    color: #ffffff;
+    transition: all .3s ease-in-out;
+    padding: .3rem .7rem !important; }
+    .navbar .nav-link:hover {
+      color: black;
+      background-color: #fc9453;
+      border-radius: .25rem; }
+  .navbar .toggler-1 {
+    width: 2rem;
+    height: .1rem;
+    margin: .5rem;
+    background-color: white;
+    transition: all .2s ease-in; }
+  .navbar .toggler-2 {
+    width: 2rem;
+    height: .1rem;
+    margin: .5rem;
+    background-color: white;
+    transition: all .2s ease-in; }
+  .navbar .toggler-3 {
+    width: 2rem;
+    height: .1rem;
+    margin: .5rem;
+    background-color: white;
+    transition: all .2s ease-in; }
+  .navbar .change .toggler-1 {
+    transform: rotate(-45deg) translate(-5px, 7.5px); }
+  .navbar .change .toggler-2 {
+    opacity: 0; }
+  .navbar .change .toggler-3 {
+    transform: rotate(45deg) translate(-5px, -7.5px); }
+  .navbar .navbar-toggler {
+    outline: none;
+    border: .1rem solid #E55A04;
+    padding: .2rem; }
+  .navbar .input-group-text {
+    background-color: #E55A04 !important;
+    border: #E55A04; }
+  .navbar .nav-search-icon {
+    color: white; }
+  .navbar .form-control {
+    border-color: white; }
+
+#banner .carousel-item {
+  clip-path: polygon(0 0, 100% 0%, 100% 88%, 0% 100%); }
+
+#banner .item-1 {
+  min-height: 60vh;
+  background-image: url(..///../img/coffee-1.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+
+#banner .item-2 {
+  min-height: 60vh;
+  background-image: url(..///../img/carousel-2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: #E55A04; }
+
+#banner .item-3 {
+  min-height: 60vh;
+  background-image: url(..///../img/carousel-3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+
+#banner .dispaly-3 {
+  color: #E55A04; }
+
+#banner .title-color {
+  color: black; }
+
+#banner .banner-btn:hover {
+  color: white !important; }
+
+.title h1 {
+  color: #040303; }
+
+.title h3 {
+  color: #CECECA; }
+
+.title a {
+  color: #E55A04;
+  padding: 1rem;
+  font-size: 2rem;
+  display: inline-block;
+  background: white; }
+  .title a:hover {
+    color: #E55A04; }
+
+.title-uderline {
+  height: .3rem;
+  width: 15.5rem;
+  background-color: #E55A04;
+  margin: -2.6rem auto; }
+
+.skills-icon {
+  background-color: #555;
+  clip-path: polygon(0 0, 100% 0%, 100% 91%, 0% 100%);
+  transition: all .3s ease-in-out; }
+  .skills-icon:hover {
+    background-color: #E55A04; }
+
+.skill-icon {
+  color: #CECECA;
+  font-size: 200px;
+  padding: 1rem;
+  padding-bottom: 2rem;
+  transition: all .3s ease-in-out; }
+  .skill-icon:hover {
+    color: white; }
+
+#modal-filler {
+  min-height: 60vh;
+  margin-top: -63px;
+  background: linear-gradient(rgba(107, 212, 81, 0.596), rgba(107, 212, 81, 0.596)), url(..///../img/video-filler.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+  #modal-filler a {
+    color: #333;
+    font-size: 4rem;
+    animation: playAnimation 2s ease infinite; }
+
+@keyframes playAnimation {
+  20% {
+    color: red; }
+  50% {
+    transform: scale(1.4);
+    color: grey; } }
+
+.modal-btn {
+  margin: 0 auto; }
+
+.about-title {
+  color: #E55A04 !important; }
+
+.about a {
+  background-color: #555 !important; }
+
+.about-text a {
+  color: #FEFEFE;
+  padding: .6rem .3rem;
+  background-color: #E55A04;
+  border-radius: 0; }
+  .about-text a:hover {
+    color: #E55A04;
+    background: #FEFEFE;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3); }
+
+.about-text h2 {
+  color: #E55A04; }
+
+.about-progress {
+  min-height: 50vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(..///../img/video-filler.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  outline: .2rem solid #E55A04;
+  outline-offset: -1rem !important; }
+
+.progress-bar {
+  background: #E55A04 !important; }
+
+.img-container {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(rgba(229, 90, 4, 0.5), rgba(229, 90, 4, 0.5)); }
+  .img-container:hover .project-image {
+    opacity: .5;
+    transform: scale(1.2); }
+  .img-container:hover .search-link {
+    margin-top: 0;
+    opacity: 1; }
+
+.project-image {
+  transition: all .3s ease-in-out; }
+
+.search-link {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3.5rem;
+  color: #333;
+  transition: margin 1s ease-in-out, color .5s ease-in-out, opacity 2s ease-in-out;
+  margin-top: -50%;
+  opacity: 0; }
+
+.search-link:hover {
+  color: white; }
+
+.current-project-photo {
+  position: relative;
+  min-height: 50vh; }
+
+.current-project {
+  height: 60%;
+  width: 50%;
+  position: absolute;
+  transition: all 1.5s ease-in-out; }
+  .current-project:hover {
+    z-index: 80;
+    transform: scale(1.1); }
+
+.current-project-1 {
+  top: 0;
+  left: 9%;
+  transform: rotate(-15deg);
+  z-index: 30; }
+
+.current-project-3 {
+  top: -2%;
+  left: 22%;
+  transform: rotate(8deg);
+  z-index: 40; }
+
+.current-project-4 {
+  top: 40%;
+  left: 9%;
+  transform: rotate(15deg);
+  z-index: 50; }
+
+.current-project-5 {
+  top: 30%;
+  left: 23%;
+  transform: rotate(-25.7deg); }
+
+.icon-top {
+  background-color: #E55A04; }
+
+#section-about {
+  min-height: 40vh;
+  background-color: #555;
+  clip-path: polygon(0 14%, 100% 0, 100% 100%, 0% 100%); }
+
+#current-project {
+  background-color: grey;
+  clip-path: polygon(0 0, 100% 0, 100% 94%, 0% 100%); }

@@ -1,0 +1,12 @@
+/* NORMALINING CSS */
+\
+*,
+*::after,
+*::before {
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Playfair Display', serif; }
+
+.top-icons {
+  background-color: #faebd7; }
